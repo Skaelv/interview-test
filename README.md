@@ -7,6 +7,7 @@ Clone the repository and install dependencies
 ```shell
 $ git clone https://github.com/Skaelv/interview-test.git
 $ npm install
+$ grunt
 ```
 
 ## Usage
