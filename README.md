@@ -23,12 +23,12 @@ $ npm run ex1 [<array>]
 ### Invite customers to a party
 
 ```shell
-$ npm run ex2 [<radius> <path> <lon> <lat>]
+$ npm run ex2 [<radius> <path> <lat> <lon>]
 ```
 
 * radius(opt, default to 100) : Maximal distance in km to send invitation
 * path(opt, default to "./customer.json"): Path to list of potentially invited customers file
-* lon, lat (opt, default to 53.3381985, -6.2592576): GPS coordinates of party
+* lat, lon (opt, default to 53.3381985, -6.2592576): GPS coordinates of party
 
 ## Tests
 
