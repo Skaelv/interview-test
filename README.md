@@ -6,6 +6,7 @@ Clone the repository and install dependencies
 
 ```shell
 $ git clone https://github.com/Skaelv/interview-test.git
+$ cd interview-test
 $ npm install
 $ grunt
 ```
@@ -18,7 +19,7 @@ $ grunt
 $ npm run ex1 [<array>]
 ```
 
-* array(opt) : Array to flatten. Use quotes for the argument. The array will be parsed internally.
+* array(opt) : Array to flatten. Don't forget to use quotes as the array will be parsed internally.
 
 ### Invite customers to a party
 
@@ -26,7 +27,7 @@ $ npm run ex1 [<array>]
 $ npm run ex2 [<radius> <path> <lat> <lon>]
 ```
 
-* radius(opt, default to 100) : Maximal distance in km to send invitation
+* radius(opt, default to 100) : Maximal distance in km to send the invitation
 * path(opt, default to "./customer.json"): Path to list of potentially invited customers file
 * lat, lon (opt, default to 53.3381985, -6.2592576): GPS coordinates of party
 

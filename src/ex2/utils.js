@@ -14,6 +14,6 @@ export function insertionSort(array,key) {
 			j--;
 		}
 		array[j+1] = value;
-	};
+	}
 	return array;
 }

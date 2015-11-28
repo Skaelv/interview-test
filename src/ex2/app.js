@@ -2,8 +2,8 @@
 
 import Party from "./party.js";
 
-process.on('uncaughtException', function (err) {
-  console.error(err.toString());
+process.on("uncaughtException", function (err) {
+	console.error(err.toString());
 });
 
 

@@ -8,8 +8,8 @@ export default function flatten(array) {
 				merged_array = merged_array.concat(flatten(array[i]));
 			} else if (Number.isInteger(array[i])) {
 				merged_array.push(array[i]);
-			};
-		};
-	};
+			}
+		}
+	}
 	return merged_array;
-};
+}

@@ -1,13 +1,13 @@
 {
   "name": "interview-test",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Technical interview for the best startup ever ;)",
   "homepage": "https://github.com/Skaelv/interview-test",
   "author": {
     "name": "Kevin Antoine",
     "email": "antoinek@tcd.ie"
   },
-  "license": "None",
+  "license": "MIT License",
   "bugs": {
     "url": "https://github.com/Skaelv/interview-test/issues"
   },
@@ -32,7 +32,7 @@
   "scripts": {
     "ex1": "node ./dist/src/ex1/app.js",
     "ex2": "node ./dist/src/ex2/app.js",
-    "lint": "eslint src/ test/"
+    "lint": "./node_modules/eslint/bin/eslint.js src/ test/"
   },
   "private": true
 }
