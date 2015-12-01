@@ -11,10 +11,10 @@ export default class Party {
 	* @param {String} path: Path to list of potentially invited customers file
 	*/
   constructor(radius, lat, lon, path) {
-		this.path = path;
-		this.radius = radius;
-		this.lat = lat;
-    this.lon = lon;
+	this.path = path;
+	this.radius = radius;
+	this.lat = lat;
+    	this.lon = lon;
   }
   get customers() {
     try {
